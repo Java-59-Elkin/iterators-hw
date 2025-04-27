@@ -13,14 +13,14 @@ export function fibonacciArr(num) {
 
 export function fibonacciSum(res) {
     let sum = 0;
-    for (let i = 0; i < res.length; i++) {
-        sum += res[i];
+    for (const r of  res) {
+        sum += r;
     }
     return sum;
 }
 
 function fibonacciPrint(res) {
-    for (let i = 1; i < res.length; i++) {
-        console.log(res[i]);
+    for (const r of res) {
+        console.log(r);
     }
 }
